@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <style>
+        /* Voeg hier je CSS-styling toe */
+        /* Bijvoorbeeld: */
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .input-field {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Chat Interface</h2>
+    <div class="chat-history" id="chatHistory"></div>
+    <input type="text" id="query" class="input-field" placeholder="Stel hier je vraag">
+    <button id="submitBtn" class="btn">Verstuur</button>
+    <div id="result"></div>
+</div>
+
+<!-- Voeg hier je JavaScript-bestand toe -->
+<script src="script.js"></script>
+</body>
+</html>

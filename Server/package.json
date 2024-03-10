@@ -1,0 +1,27 @@
+{
+  "name": "aiartinspiration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --env-file=.env server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yarandj/PRG08.git"
+  },
+  "author": "Yaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yarandj/PRG08/issues"
+  },
+  "homepage": "https://github.com/Yarandj/PRG08#readme",
+  "dependencies": {
+    "@langchain/openai": "^0.0.18",
+    "cors": "^2.8.5",
+    "langchain": "^0.1.25"
+  }
+}
